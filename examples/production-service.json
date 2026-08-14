@@ -1,0 +1,20 @@
+{
+  "owner": "platform-demo",
+  "iac": true,
+  "cicd": true,
+  "immutable_artifacts": true,
+  "observability": ["logs", "metrics", "traces"],
+  "slo": {"availability": 99.95},
+  "alert_owner": "platform-oncall",
+  "autoscaling": true,
+  "multi_az": true,
+  "rpo_minutes": 30,
+  "rto_minutes": 60,
+  "backup_restore_tested": true,
+  "workload_identity": true,
+  "least_privilege": true,
+  "secrets_managed": true,
+  "progressive_delivery": true,
+  "automatic_rollback": true,
+  "cost_owner": "platform"
+}
