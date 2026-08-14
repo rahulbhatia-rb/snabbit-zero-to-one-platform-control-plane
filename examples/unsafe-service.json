@@ -1,0 +1,20 @@
+{
+  "owner": null,
+  "iac": false,
+  "cicd": false,
+  "immutable_artifacts": false,
+  "observability": ["logs"],
+  "slo": {"availability": 99.0},
+  "alert_owner": null,
+  "autoscaling": false,
+  "multi_az": false,
+  "rpo_minutes": 240,
+  "rto_minutes": 480,
+  "backup_restore_tested": false,
+  "workload_identity": false,
+  "least_privilege": false,
+  "secrets_managed": false,
+  "progressive_delivery": false,
+  "automatic_rollback": false,
+  "cost_owner": null
+}
